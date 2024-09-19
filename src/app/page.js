@@ -23,7 +23,7 @@ export default function Home() {
         /> // this has a self closing tag
         
       ))}
-
+      
     </main>
   );
 }
