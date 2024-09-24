@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import styles from "../page.module.css";
+import {formatDateForArticle} from "./utils";
 
 export default function ArticleCard({
     blurb, 
@@ -10,7 +11,11 @@ export default function ArticleCard({
     publishedDate,
     title,
  }) {
-    
+
+    // const freshDate = new Date(publishedDate)
+    // const formattedDate = `${freshDate.getMonth() + 1}/{freshDate.getDate()}/${freshDate.getFullYear()}`;
+
+
     return (
         <div className={styles.articleCardWrapper}>
             <img src={image.url} alt={image.alt} />
