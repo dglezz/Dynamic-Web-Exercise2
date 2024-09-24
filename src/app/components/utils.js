@@ -1,6 +1,4 @@
- 
-
-const MONTHS = [
+ const MONTHS = [
     "Jan",
     "Feb",
     "Marc",
